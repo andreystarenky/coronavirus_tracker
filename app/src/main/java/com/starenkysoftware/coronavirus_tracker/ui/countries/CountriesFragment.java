@@ -1,4 +1,4 @@
-package com.starenkysoftware.coronavirus_tracker.ui.gallery;
+package com.starenkysoftware.coronavirus_tracker.ui.countries;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,7 +14,7 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.starenkysoftware.coronavirus_tracker.R;
 
-public class GalleryFragment extends Fragment {
+public class CountriesFragment extends Fragment {
 
     private GalleryViewModel galleryViewModel;
 
@@ -22,14 +22,10 @@ public class GalleryFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         galleryViewModel =
                 ViewModelProviders.of(this).get(GalleryViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_gallery, container, false);
-        final TextView textView = root.findViewById(R.id.text_gallery);
-        galleryViewModel.getText().observe(this, new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-                textView.setText(s);
-            }
-        });
+        View root = inflater.inflate(R.layout.fragment_countries, container, false);
+
+
+
         return root;
     }
 }

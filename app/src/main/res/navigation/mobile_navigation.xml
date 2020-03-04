@@ -12,16 +12,16 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.starenkysoftware.coronavirus_tracker.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_countries"
+        android:name="com.starenkysoftware.coronavirus_tracker.ui.countries.CountriesFragment"
+        android:label="@string/menu_countries"
+        tools:layout="@layout/fragment_countries" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.starenkysoftware.coronavirus_tracker.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_statistics"
+        android:name="com.starenkysoftware.coronavirus_tracker.ui.statistics.StatisticsFragment"
+        android:label="@string/menu_statistics"
+        tools:layout="@layout/fragment_statistics" />
 
     <fragment
         android:id="@+id/nav_tools"

@@ -1,4 +1,4 @@
-package com.starenkysoftware.coronavirus_tracker.ui.gallery;
+package com.starenkysoftware.coronavirus_tracker.ui.countries;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
