@@ -22,16 +22,16 @@
             android:title="@string/menu_news" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Info">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="@string/menu_share" />
+                android:id="@+id/nav_sources"
+                android:icon="@drawable/ic_link_black_24dp"
+                android:title="@string/menu_sources" />
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="@string/menu_send" />
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="@string/menu_about" />
         </menu>
     </item>
 
