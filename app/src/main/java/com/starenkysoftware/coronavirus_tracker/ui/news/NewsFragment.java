@@ -1,4 +1,4 @@
-package com.starenkysoftware.coronavirus_tracker.ui.tools;
+package com.starenkysoftware.coronavirus_tracker.ui.news;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,7 +14,7 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.starenkysoftware.coronavirus_tracker.R;
 
-public class ToolsFragment extends Fragment {
+public class NewsFragment extends Fragment {
 
     private ToolsViewModel toolsViewModel;
 

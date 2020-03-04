@@ -24,9 +24,9 @@
         tools:layout="@layout/fragment_statistics" />
 
     <fragment
-        android:id="@+id/nav_tools"
-        android:name="com.starenkysoftware.coronavirus_tracker.ui.tools.ToolsFragment"
-        android:label="@string/menu_tools"
+        android:id="@+id/nav_news"
+        android:name="com.starenkysoftware.coronavirus_tracker.ui.news.NewsFragment"
+        android:label="@string/menu_news"
         tools:layout="@layout/fragment_tools" />
 
     <fragment

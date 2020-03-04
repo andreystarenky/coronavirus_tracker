@@ -1,4 +1,4 @@
-package com.starenkysoftware.coronavirus_tracker.ui.tools;
+package com.starenkysoftware.coronavirus_tracker.ui.news;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

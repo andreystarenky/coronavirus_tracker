@@ -33,10 +33,17 @@ public class HomeFragment extends Fragment {
             }
         });*/
 
-        final WebView webview = getActivity().findViewById(R.id.home_webview);
+        final WebView webview = root.findViewById(R.id.home_webview);
         webview.loadUrl("http://yogta.ca/c_tracker/home_view.html");
 
-        FloatingActionButton fab = getActivity().findViewById(R.id.fab_home);
+        webview.setInitialScale(140);
+
+        int width = +getResources().getDisplayMetrics().widthPixels;
+        if(width<=720){
+            webview.setInitialScale(90);
+        }
+
+        FloatingActionButton fab = root.findViewById(R.id.fab_home);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
